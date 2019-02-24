@@ -4,7 +4,8 @@
 
 x = int(input("Please enter a positive integer: "))  # User must input a value to begin solution
 
-if x // range(1, x) == 0:
-  print("This is a prime number")                  
+for i in range(2, x):
+  if i % x == 0:
+    print("This is not a prime number")                  
  
-else:print("This is not a prime number")
+else:print("This is a prime number")
