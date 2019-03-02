@@ -2,7 +2,7 @@
 # Solution to problem 4
 # Output succesive values of input number. At each step calculate the next value by taking the current value and if even divide it by two but if odd multiply it by 3 and add one. Have the program end if the current value is one.
 
-x = int(input("Please enter a positive integer: "))  # User must input a value to beign solution
+x = int(input("Please enter a positive integer: "))  # User must input a value to begin solution
 print(x)                                             # Print value of x
 
 while x > 1:                # Run the below while x is above 1. If x becomes lower or equal to 1 stop execution

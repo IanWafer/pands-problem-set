@@ -1,1 +1,1 @@
-# pands-problem-seyt
+# pands-problem-set
