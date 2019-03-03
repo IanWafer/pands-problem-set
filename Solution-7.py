@@ -8,4 +8,4 @@ x = float(input("Please enter a positive number: "))  # User must input a value 
 y=math.sqrt(x)
 
 
-print("The square root of %d is approx. %1f." % (x,y))
+print("The square root of %f is approx. %.1f." % (x,y))
