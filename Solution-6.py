@@ -4,5 +4,6 @@
 
 x = input("Please enter a sentence: ")
 
-for word in x.split():
-  print(word)
+y = x.split(" ")
+
+print(y[1::2])
