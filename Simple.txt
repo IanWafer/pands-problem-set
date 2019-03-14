@@ -1,0 +1,10 @@
+This is a simple text file.
+To test my solution 9.
+I need to print every second line.
+So I better have a few more lines.
+Dum de dum dum dum.
+Done.
+Seven.
+Eight.
+Nine.
+Ten.
