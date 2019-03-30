@@ -8,7 +8,7 @@
 import numpy as np                                                      # Import nuympy module
 import matplotlib.pyplot as plt                                         # Import matplotlib.pyplot module
 
-x1 = np.arange(0., 4., 0.05)                                            # Set up first range x
+x1 = np.arange(0., 5., 0.05)                                            # Set up first range x 0 to 4 inclusive
 x2 = np.power(x1, 2)                                                    # Set up second range x^2
 x3 = np.power(2, x1)                                                    # Set up third range 2^x
 

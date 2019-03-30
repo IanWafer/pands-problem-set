@@ -1,7 +1,7 @@
 # Ian Wafer 23-02-2019
 # Solution to problem 2
 # Output whether today is a day beginning with T
-# Source http://strftime.org/
+# Info source http://strftime.org/
 
 import time                                             # import the time module
 
