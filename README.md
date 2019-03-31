@@ -5,15 +5,15 @@ This repository contains my solutions to problems 1-10 from the Problem set 2019
 The instructions can be found here- [link](https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf)
 
 ## How to download this repository
-    1- Go to Github profile located here- [link](https://github.com/IanWafer)
-    2- Click repository labeled IanWafer/pands-problem-set.
-    3- Click the download button.
+1. Go to Github profile located here- [link](https://github.com/IanWafer)
+2. Click repository labeled IanWafer/pands-problem-set.
+3. Click the download button.
 
 ## How to run the code.
-    1- Install a python code client (Anaconda recommended. See here for installer- [link](https://www.anaconda.com/distribution/)
-    2- Run a command line client.
-    3- Ensure you are in the correct directory where each python script is located usig cd to navigate.
-    4- Run python script by typing "python filename" eg. python Solution-1.py
+1. Install a python code client (Anaconda recommended. See here for installer- [link](https://www.anaconda.com/distribution/)
+2. Run a command line client.
+3. Ensure you are in the correct directory where each python script is located usig cd to navigate.
+4. Run python script by typing "python filename" eg. python Solution-1.py
 
 ## What each file contains
 1. Solution-1.py contains my solution the problem stating calculate the integers between the input number and 0
@@ -25,4 +25,4 @@ The instructions can be found here- [link](https://github.com/ianmcloughlin/prob
 7. Solution-7.py contains my solution the problem stating output approximate square root of an input positive floating point number
 8. Solution-8.py contains my solution the problem stating display the current date and time in the format "Monday, January 10th 2019 at 1:15pm".
 9. Solution-9.py contains my solution the problem stating write a program to read a text file and output every second line.
-10. Solution-10.py contains my solution the problem stating write a program that displays a plot of the functions x, x2 and 2^x in the range [0,4]
+10. Solution-10.py contains my solution the problem stating write a program that displays a plot of the functions x, x[^2] and 2[^x] in the range [0,4]
