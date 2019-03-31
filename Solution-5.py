@@ -2,7 +2,12 @@
 # Solution to problem 5
 # Determine whether input value is a prime number
 
-x = int(input("Please enter a positive integer: "))  # User must input a value to begin solution
+x = int(input("Please enter a positive above 0 integer: "))  # User must input a value to begin solution
+
+if x <= 0:                                           # Value needs to be positive to check prime
+   x = int(input("Negative numbers not accepted. Please enter a positive above 0 integer: ")) # Reminder for a positive value is required
+
+assert x > 0                                         # Check for true/false condition after x value input
 
 if x > 1:                                            # x must be a positive value greater than 1 to determine if it is prime.
 

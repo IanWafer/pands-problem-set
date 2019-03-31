@@ -9,6 +9,8 @@ i = 0                                                # This  ensures the first i
 if x <= 0:                                           # Value needs to be positive to create sum
    x = int(input("Negative numbers not accepted. Please enter a positive integer: ")) # Reminder for a positive value is required
 
+assert x >= 0                                        # Check for true/false condition after x value input
+
 while i <= x:                                        # This ensures the value of i does not inrease past the value of the input figure resulting in a loop 
     ans = ans + i                                    # Sum of iterations
     i = i + 1                                        # Move to next iteration until while condition not met

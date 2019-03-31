@@ -5,8 +5,10 @@
 x = int(input("Please enter a positive integer: "))  # User must input a value to begin solution
 print(x)                                             # Print value of x
 
-if x <= 0:                                           # Value needs to be positive to create sum
+if x <= 0:                                           # Value needs to be positive for calculation 
    x = int(input("Negative numbers not accepted. Please enter a positive integer: ")) # Reminder for a positive value is required
+
+assert x >= 0               # Check for true/false condition after x value input
 
 while x > 1:                # Run the below while x is above 1. If x becomes lower or equal to 1 stop execution
   if x % 2 == 0:            # If x divided by 2 leaves no remainders then it is an even no. 
